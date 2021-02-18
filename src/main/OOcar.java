@@ -24,8 +24,11 @@ public class OOcar {
     person p1 = new person("juan", 28, "male");
     
     person p2 = new person("mario", 30, "male");
+        //print to string in class person. so it prints all the details about a person created
+        System.out.println(p1.toString());
      // instantiation of a car
-    car car1 = new car();
+    
+     car car1 = new car();
      // setOwner, not print
      car1.setOwner(p1);
       // print the lines
@@ -40,6 +43,6 @@ public class OOcar {
         
         System.out.println(car1.running());
     
-     // System.out.println(car2.toString());
+  
     }  
 }
