@@ -19,6 +19,7 @@ public class car {
      
     //default constructor
     public car (){
+        System.out.println("new car created");
         this.brand = "toyota";       
         this.model = "auris";
         this.year = 2020;
@@ -79,6 +80,10 @@ public class car {
         this.owner = owner;
     }
     
+    public String running(){
+        return " the car brand: " + this.brand + " model; " + this.model + "is going very fast";
+        
+    }
     @Override
    public String toString(){
        return "the car "  + this.brand + ", " + this.model + ", " + "year " + this.year + ", " + " colour " + this.colour + ", owner: " + this.owner.getName();

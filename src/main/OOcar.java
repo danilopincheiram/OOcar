@@ -37,6 +37,8 @@ public class OOcar {
          car2.setOwner(p2);
        //print toString with the owner added
         System.out.println(car2);
+        
+        System.out.println(car1.running());
     
      // System.out.println(car2.toString());
     }  
