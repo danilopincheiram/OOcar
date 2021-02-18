@@ -24,8 +24,7 @@ public class OOcar {
     person p1 = new person("juan", 28, "male");
     
     person p2 = new person("mario", 30, "male");
-        //print to string in class person. so it prints all the details about a person created
-        System.out.println(p1.toString());
+  
      // instantiation of a car
     
      car car1 = new car();
@@ -41,7 +40,7 @@ public class OOcar {
        //print toString with the owner added
         System.out.println(car2);
         
-        System.out.println(car1.running());
+
     
   
     }  
