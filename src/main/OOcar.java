@@ -40,7 +40,8 @@ public class OOcar {
        //print toString with the owner added
         System.out.println(car2);
         
-
+     car car3 = new car();
+     car car4 = new car();
     
   
     }  
