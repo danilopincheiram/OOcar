@@ -46,7 +46,7 @@ public class OOcar {
      car car4 = new car();
      
      car car5= new car("Nissan","Juke", 2021, "Silver"); //I love this car but It's expensive for Mitzy :-P
-    
+        System.out.println("The new car for " + p3 + " is " + car5.getBrand()+", "+car5.getColour()+" "+ car5.getModel());
   
     }  
 }
