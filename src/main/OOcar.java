@@ -24,6 +24,8 @@ public class OOcar {
     person p1 = new person("juan", 28, "male");
     
     person p2 = new person("mario", 30, "male");
+    
+    person p3 = new person("Mitzy", 18, "female"); // Hahaha Mitzy wishes to be 18 again! haha
   
      // instantiation of a car
     
@@ -42,6 +44,8 @@ public class OOcar {
         
      car car3 = new car();
      car car4 = new car();
+     
+     car car5= new car("Nissan","Juke", 2021, "Silver"); //I love this car but It's expensive for Mitzy :-P
     
   
     }  
